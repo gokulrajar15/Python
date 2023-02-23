@@ -1,0 +1,14 @@
+Index: File handing Assesment.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># 1. WAP to read the content of file and count how many times letter 'a' comes in file\r\n\r\nx = open(\"C:\\\\Users\\\\Gokul\\\\Documents\\\\practice.txt.txt\", \"rt\")\r\ny = x.read()\r\ncount = 0\r\nfor i in y:\r\n    if i == \"a\" or \"A\":\r\n        count += 1\r\nprint(\"The number of 'a' present in the file is {}\".format(count))\r\nx.close()\r\n
+===================================================================
+diff --git a/File handing Assesment.py b/File handing Assesment.py
+--- a/File handing Assesment.py	
++++ b/File handing Assesment.py	
+@@ -1,5 +1,4 @@
+ # 1. WAP to read the content of file and count how many times letter 'a' comes in file
+-
+ x = open("C:\\Users\\Gokul\\Documents\\practice.txt.txt", "rt")
+ y = x.read()
+ count = 0

@@ -8,3 +8,10 @@ for i in y:
         count += 1
 print("The number of 'a' present in the file is {}".format(count))
 x.close()
+
+#2. WAP to read the content of file and display 'I' in place of 'E' while displaying the content of file all
+#other characters should appear as it is.
+
+with open("C:\\Users\\Gokul\\Documents\\practice.txt.txt", "r") as file:
+    content = file.read()
+    print(content.replace("E", "I"))

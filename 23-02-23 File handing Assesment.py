@@ -47,4 +47,35 @@ with open("C:\\Users\\Gokul\\Documents\\NEWS.txt", "r") as file4:
 with open("C:\\Users\\Gokul\\Documents\\NEWS.txt", "a") as file5:
     content5 = file5.write(" \n Today the weather going to severe rain")
     file5.close()
+print("--------------------------------------------------------------------------------------------------")
+
+#6. Write a function ISTOUPCOUNT() in python to read the content of file WRITER.TXT, to count and
+#display the occurance of IS, TO, UP.
+with open("C:\\Users\\Gokul\\Documents\\writer.txt", "r") as file6:
+    x = file6.read()
+def ISTOUPCOUNT(x):
+    counts = x.count("IS") + x.count("is") + x.count("TO") + x.count("to") + x.count("UP") + x.count("up")
+    print("The count of IS TO UP is {}".format(counts))
+file6.close()
+ISTOUPCOUNT(x)
+
+print("--------------------------------------------------------------------------------------------------")
+
+''''7. Write a function COUNTAE() in python to read lines from text file WRITER. TX T, and display those
+lines, which are starting either with A or starting with E. For example if the content of file is •
+A CLEAN ENVIRONMENT IS NECESSARY FOR OUR GOOD HEALTH.
+WE SHOULD CLEAN OUR ENVIRONMENT.
+EDUCATIONAL INSTITUTE SHOULD TAKE THE LEAD
+The function should display:
+A CLEAN ENVIRONMENT IS NECESSARY FOR OUR GOOD HEALTH.
+EDUCATIONAL INSTITUTE SHOULD TAKE THE LEAD'''
+with open("C:\\Users\\Gokul\\Documents\\writer.txt", "r") as file7:
+    y = file7.read()
+def COUNTAE(y):
+    count4 = 0
+    if y.startswith(("A", "E", "e", "a")):
+        count4 += 1
+        print(count4)
+
+COUNTAE(y)
 

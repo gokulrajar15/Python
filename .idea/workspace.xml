@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd9b1a77-1677-4cd5-8108-cdc14b240705" name="Changes" comment="">
+    <list default="true" id="cd9b1a77-1677-4cd5-8108-cdc14b240705" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/23-02-23 File handing Assesment.py" beforeDir="false" afterPath="$PROJECT_DIR$/23-02-23 File handing Assesment.py" afterDir="false" />
     </list>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677143432370</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second commit">
+      <created>1677145834822</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677145834822</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +245,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/gokulrajar15/Python" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>

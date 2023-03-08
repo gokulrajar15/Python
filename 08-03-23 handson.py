@@ -45,6 +45,7 @@ class Student(average):
         print("Phone Number: {}".format(self.ph_number))
         print("Address: {}".format(self.address))
 
+
 print("------------Students Details------------------------")
 gokul = Student("Gokul", "10th", "Male", "999230202", "mettur,salem")
 gokul.display_details()

@@ -45,9 +45,10 @@ class Student(average):
         print("Phone Number: {}".format(self.ph_number))
         print("Address: {}".format(self.address))
 
-
+print("------------Students Details------------------------")
 gokul = Student("Gokul", "10th", "Male", "999230202", "mettur,salem")
 gokul.display_details()
+print("------------------Marks------------------------")
 gokul.enter_marks(37, 45, 89, 23, 45)
 gokul.display_marks()
 gokul.display_total_average()

@@ -28,9 +28,11 @@ class main(triangle):
         self.height = height
         self.base = base
         self.radius = radius
+    def displayall(self):
+        circle.A_and_C_of_circle(self)
+        rectangle.A_and_C_of_rectangle(self)
+        triangle.A_and_C_of_triangle(self)
 
 
-cal = main(8, 4, 7, 9, 4)
-cal.A_and_C_of_triangle()
-cal.A_and_C_of_circle()
-cal.A_and_C_of_rectangle()
+cal = main(4,5,3,7,8)
+cal.displayall()

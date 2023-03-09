@@ -97,3 +97,23 @@ elif x == "rectangle" or x == "4":
 
 else:
     print("enter the mentioned values")
+#output
+'''
+
+        Calculation for area and circumference
+        enter the shape you want 
+           circle or 1
+           square or 2
+           triangle or 3
+           rectangle or 4
+
+Enter here ---1
+Enter the radius--7
+The area of the circle is 21.98
+The Circumference  of the circle is 43.96
+╒════════╤═════════════════╕
+│   Area │   Circumference │
+╞════════╪═════════════════╡
+│  21.98 │           43.96 │
+╘════════╧═════════════════╛
+'''

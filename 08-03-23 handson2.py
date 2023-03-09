@@ -1,5 +1,5 @@
 
-class circle():
+class circle:
     def A_and_C_of_circle(self):
         a = 3.14 * (self.radius**2)
         c = 3.14 * (self.radius * 2 * 3.14)
@@ -28,11 +28,12 @@ class main(triangle):
         self.height = height
         self.base = base
         self.radius = radius
+
     def displayall(self):
         circle.A_and_C_of_circle(self)
         rectangle.A_and_C_of_rectangle(self)
         triangle.A_and_C_of_triangle(self)
 
 
-cal = main(4,5,3,7,8)
+cal = main(4, 5, 3, 7, 8)
 cal.displayall()
